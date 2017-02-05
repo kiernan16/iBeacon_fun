@@ -1,9 +1,11 @@
 #!/bin/bash
 
 clear
-echo _X230 ARTIFICIAL INTELLIGENCE
-echo Ask any question. I will answer to the best of my ability.
+echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+echo  " _X230_ ARTIFICIAL INTELLIGENCE"
+echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 echo
+echo "Hello! What can I help you with today?\n"
 
 read throwAwayText
 
@@ -14,8 +16,21 @@ for (( c=0; c<=500; c++ ))
 done
 
 clear
-echo _X230 ARTIFICIAL INTELLIGENCE SOLUTION:
+RED='\033[0;31m'
+WHITE='\033[1;37m'
+NC='\033[0m' # No Color
+
+echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+echo  " _X230_ ARTIFICIAL INTELLIGENCE"
+echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 echo
-echo Terminate: Holden
-echo Watch: Archer
+echo -e "You: \"${WHITE}$throwAwayText${NC}\""
 echo
+echo "My Suggestion"
+echo -e "Terminate: ${RED}Holden${NC}"
+echo -e "Watch: ${RED}Archer${NC}"
+echo
+echo "Would you like help?"
+
+read temp
+echo;echo;echo;echo;echo;echo;echo;
