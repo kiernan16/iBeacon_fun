@@ -29,6 +29,7 @@ echo
 echo "My Suggestion"
 echo -e "Terminate: ${RED}Holden${NC}"
 echo -e "Watch: ${RED}Archer${NC}"
+echo -e "Eat: ${RED}Raw Potato${NC}"
 echo
 echo "Would you like help?"
 
