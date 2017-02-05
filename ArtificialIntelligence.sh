@@ -5,7 +5,7 @@ echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 echo  " _X230_ ARTIFICIAL INTELLIGENCE"
 echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 echo
-echo "Hello! What can I help you with today?\n"
+echo "Hello! What can I help you with today?"
 
 read throwAwayText
 
