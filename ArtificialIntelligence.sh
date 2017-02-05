@@ -2,7 +2,7 @@
 
 clear
 echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-echo  " _X230_ ARTIFICIAL INTELLIGENCE"
+echo  " _X230_ ARTIFICIAL INTELLIGENCE (v2.1 beta)"
 echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 echo
 echo "Hello! What can I help you with today?"
@@ -21,7 +21,7 @@ WHITE='\033[1;37m'
 NC='\033[0m' # No Color
 
 echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-echo  " _X230_ ARTIFICIAL INTELLIGENCE"
+echo  " _X230_ ARTIFICIAL INTELLIGENCE (v2.1 beta)"
 echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 echo
 echo -e "You: \"${WHITE}$throwAwayText${NC}\""
