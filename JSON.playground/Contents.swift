@@ -14,12 +14,22 @@ class Animal: Object {
 }
 class Cat: Animal {
     var fur: Bool = true
+    
+    func spar(catWeight:Double, catAge: Int, catName:String) {
+        weight = catWeight
+        age = catAge
+        name = catName
+    }
 }
 
 let m = Cat()
-let a = Cat()
-let b = Cat()
-let c = Cat()
+var a = Cat()
+var b = Cat()
+var c = Cat()
+
+a.spar(catWeight: 12.1, catAge: 4, catName: "ELbow")
+b.spar(catWeight: 8.3, catAge: 2, catName: "Potato")
+c.spar(catWeight: 0.8, catAge: 0, catName: "Smalls")
 
 var array = [m,a,b,c]
 
